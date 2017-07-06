@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Orders]
+(
+	[OrderId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Value] NVARCHAR(50) NOT NULL
+)
