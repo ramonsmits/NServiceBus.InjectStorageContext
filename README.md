@@ -1,4 +1,7 @@
 
+Note: __This is the v6 version__, check the [v7 branch for a v7 version](https://github.com/ramonsmits/NServiceBus.InjectStorageContext/tree/v7).
+
+
 # Sample: Inject Storage Context with DI
 
 In NServiceBus 5 the `NHibernateStorageContext` storage context was registered in the container. In NServiceBus 6 this does not work anymore because the context is not registered in the container and cannot be injected via the constructor any more. It can only be passed as an argument meaning you have to pass the context as argument into the `IOrderRepository.Add(Order)` which is - obviously - not what you want if you use the repository pattern. This sample extends NServiceBus with behavior very similar to  `NHibernateStorageContext` which was available prior to NServiceBus 6.
