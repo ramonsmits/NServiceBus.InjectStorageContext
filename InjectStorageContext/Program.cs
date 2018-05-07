@@ -12,12 +12,7 @@ class Program
     public const string TransportConnectionString   = @"Server=localhost;Database=nservicebus;Trusted_Connection=True;App=Transport"; // Using different App values prevents lightweight transactions
     public const string PersistenceConnectionString = @"Server=localhost;Database=nservicebus;Trusted_Connection=True;App=Persistence";
 
-    static void Main()
-    {
-        AsyncMain().GetAwaiter().GetResult();
-    }
-
-    static async Task AsyncMain()
+    static async Task Main()
     {
         Console.Title = Title;
 
