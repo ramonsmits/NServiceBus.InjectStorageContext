@@ -17,7 +17,7 @@ class Program
         Console.Title = Title;
 
         var endpointConfiguration = new EndpointConfiguration(Title);
-        endpointConfiguration.UseSerialization<JsonSerializer>();
+        endpointConfiguration.UseSerialization<NewtonsoftSerializer>();
 
         // Transport
 
