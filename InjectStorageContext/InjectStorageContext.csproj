@@ -11,7 +11,7 @@
     <PackageReference Include="Dapper" Version="1.50.4" />
     <PackageReference Include="Dapper.Contrib" Version="1.50.4" />
     <PackageReference Include="Iesi.Collections" Version="4.0.4" />
-    <PackageReference Include="NHibernate" Version="4.1.2.4000" />
+    <PackageReference Include="NHibernate" Version="5.3.2" />
     <PackageReference Include="NServiceBus.NHibernate" Version="7.2.3" />
     <PackageReference Include="NServiceBus.SqlServer" Version="3.1.4" />
   </ItemGroup>
