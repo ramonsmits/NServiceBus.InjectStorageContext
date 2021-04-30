@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="1.50.4" />
+    <PackageReference Include="Dapper" Version="2.0.90" />
     <PackageReference Include="Dapper.Contrib" Version="1.50.4" />
     <PackageReference Include="Iesi.Collections" Version="4.0.4" />
     <PackageReference Include="NHibernate" Version="4.1.2.4000" />
