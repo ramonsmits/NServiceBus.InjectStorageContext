@@ -1,6 +1,5 @@
 
-Note: __This is the v6 version__, check the [v7 branch for a v7 version](https://github.com/ramonsmits/NServiceBus.InjectStorageContext/tree/v7).
-
+Note: __This is the v7 version__, check the [v6 branch for a v6 version](https://github.com/ramonsmits/NServiceBus.InjectStorageContext/tree/v6).
 
 # Sample: Inject Storage Context with DI
 
