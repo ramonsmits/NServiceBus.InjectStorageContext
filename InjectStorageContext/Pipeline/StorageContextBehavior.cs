@@ -25,7 +25,7 @@ public class StorageContextBehavior : Behavior<IInvokeHandlerContext>
 
             using (var helper = connection.CreateCommand())
             {
-                session.Transaction.Enlist(helper);
+                session.GetCurrentTransaction().Enlist(helper); // Cannot return null, as transaction is always created.
                 transaction = helper.Transaction;
             }
 
