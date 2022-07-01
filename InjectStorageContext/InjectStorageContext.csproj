@@ -14,7 +14,7 @@
     <PackageReference Include="Iesi.Collections" Version="4.0.4" />
     <PackageReference Include="NHibernate" Version="5.3.10" />
     <PackageReference Include="NServiceBus" Version="7.5.0" />
-    <PackageReference Include="NServiceBus.Newtonsoft.Json" Version="2.3.0" />
+    <PackageReference Include="NServiceBus.Newtonsoft.Json" Version="2.4.0" />
     <PackageReference Include="NServiceBus.NHibernate" Version="8.5.0" />
     <PackageReference Include="NServiceBus.SqlServer" Version="6.3.1" />
   </ItemGroup>
